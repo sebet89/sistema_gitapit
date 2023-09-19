@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  laravel:
+    build:
+      context: ./backend_unisuam
+      dockerfile: Dockerfile
+    volumes:
+      - ./backend_unisuam:/var/www
+    ports:
+      - "8000:80"
+
+  react:
+    build:
+      context: ./frontend_unisuam
+      dockerfile: Dockerfile
+    volumes:
+      - ./frontend_unisuam:/usr/src/app
+    ports:
+      - "3000:3000"
