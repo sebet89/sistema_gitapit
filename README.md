@@ -18,8 +18,8 @@ Este projeto permite aos usuários pesquisar perfis de usuários do GitHub e vis
 
 1. **Clone o repositório**:
 
-   git clone https://github.com/sebet89/sistema_gitapit.git
-   cd sistema_gitapit
+  - git clone https://github.com/sebet89/sistema_gitapit.git .
+  - cd sistema_gitapit .
    
 Inicie as aplicações:
 
